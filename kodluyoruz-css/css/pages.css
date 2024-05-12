@@ -1,0 +1,85 @@
+*{
+    background-color: rgb(32, 32, 32);
+}
+
+.hero-text , .navigate-name h2, .navigate-name h3{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-text{
+    color: rgb(206, 206, 206);
+    font-family: "Dancing Script", cursive;
+}
+
+.navigate-name{
+    color: rgb(131, 130, 130);
+    font-family: "Dancing Script", cursive;
+}
+
+.navigate-name h2{
+    color: white;
+}
+
+
+.topbar {
+    padding-bottom: 30px;
+    padding: top 30px;
+}
+
+.topbar .center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topbar .center a{
+    color: rgb(253, 199, 199);
+    text-decoration:none;
+    font-size: 20px;
+    font-family: "Briem Hand", cursive;
+}
+
+
+.images{
+    color: white;
+    font-size: 20px;
+    font-family: "Briem Hand", cursive;
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    justify-content: center; /* Center images horizontally */
+}
+
+.images ul li{
+    padding-bottom: 60px;
+    list-style-type:none;
+
+}
+.images ul li img{
+    max-height: 150px;
+
+}
+
+.hakkimizda{
+    color: bisque;
+    display: flex;
+}
+
+.hakkimizda h1{
+    color: rgb(151, 83, 0);
+}
+
+.links{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.links ul li a{
+    color: rgb(172, 172, 172);
+    font-family: "Briem Hand", cursive;
+    text-decoration:none;
+}
