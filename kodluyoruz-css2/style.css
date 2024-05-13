@@ -1,0 +1,38 @@
+* {
+    background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.image-container {
+    margin-top: 20px; /* Adjust as needed */
+    text-align: center;
+}
+
+table {
+    width: 100%; /* Make the table cover the entire width of the container */
+    border-collapse: collapse; /* Merge table borders */
+}
+
+td[colspan="3"] {
+    background-color: #EEEEEE;
+    color: black;
+    text-align: center;
+}
+
+td[width="37%"] {
+    background-color: #7EE5DA;
+}
+
+td[align="center"] {
+    background-color: #70CCC2;
+}
+
+td[align="right"] {
+    background-color: #62B3AA;
+}
