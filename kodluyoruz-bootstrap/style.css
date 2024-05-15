@@ -1,0 +1,15 @@
+.container-md{
+    background-color: #E9ECEF;
+}
+
+.container-md h1{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: "Noto Znamenny Musical Notation", sans-serif;
+}
+
+.topbar{
+    font-size: 30px;
+    margin-bottom: 3%;
+    font-family: "Playfair Display", serif;
+}
